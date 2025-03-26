@@ -1,0 +1,357 @@
+       {/* Detailed Information (Hidden by Default) */}
+        <div
+          className={`space-y-16 transition-all duration-500 ${
+            showDetails ? "opacity-100" : "opacity-0 h-0 overflow-hidden"
+          }`}
+        >
+          {/* Professional Experience */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-medium mb-6 flex items-center">
+              <Briefcase className="mr-2 h-5 w-5 text-gray-400" /> Professional
+              Experience
+            </h2>
+
+            <div className="space-y-8">
+              {/* Bitte Protocol - Current role with full detail */}
+              <div className="border-l-2 border-gray-800 pl-4">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <h3 className="text-lg font-medium">
+                    Lead Frontend Engineer — Bitte Protocol
+                  </h3>
+                  <div className="flex items-center text-gray-400 text-sm">
+                    <Calendar className="mr-1 h-3 w-3" /> Oct 2023 – Present | 1
+                    yr 6 mos
+                  </div>
+                </div>
+                <ul className="list-disc list-inside text-gray-300 space-y-1 ml-1">
+                  <li>
+                    Led a frontend team of 3 engineers, bridging product and
+                    design teams.
+                  </li>
+                  <li>
+                    Successfully developed{" "}
+                    <Link
+                      href="https://wallet.bitte.ai/"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Bitte Crypto Wallet
+                      <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    ,{" "}
+                    <Link
+                      href="https://www.bitte.ai/"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Bitte AI Platform
+                      <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    ,{" "}
+                    <Link
+                      href="https://www.npmjs.com/package/@bitte-ai/chat"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      AI Chat Package <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    .
+                  </li>
+                </ul>
+              </div>
+
+              {/* Mintbase - Reduced slightly */}
+              <div className="border-l-2 border-gray-800 pl-4">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <h3 className="text-lg font-medium">
+                    Frontend Engineer — Mintbase
+                  </h3>
+                  <div className="flex items-center text-gray-400 text-sm">
+                    <Calendar className="mr-1 h-3 w-3" /> Nov 2021 – Oct 2023 |
+                    2 yrs
+                  </div>
+                </div>
+                <ul className="list-disc list-inside text-gray-300 space-y-1 ml-1">
+                  <li>
+                    Developed{" "}
+                    <Link
+                      href="https://www.mintbase.xyz/"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Mintbase NFT Marketplace{" "}
+                      <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    .
+                  </li>
+                  <li>
+                    Created the{" "}
+                    <Link
+                      href="https://ui.mintbase.io/?path=/story/core-colors--colors"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Mintbase UI Component Library{" "}
+                      <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    , reducing development time by 30%.
+                  </li>
+                  <li>
+                    Built and maintained{" "}
+                    <Link
+                      href="https://github.com/Mintbase/mintbase-js"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Mintbase JS SDK <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    , to enable developers to build on Mintbase or to use our
+                    tools to build their products.
+                  </li>
+                </ul>
+              </div>
+
+              {/* Previous Roles - Condensed with lighter styling */}
+              <div className="space-y-4 text-sm text-gray-400">
+                <div className="border-l border-gray-800 pl-4">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                    <h3 className="font-medium text-gray-300">
+                      Frontend Developer — HabberTec
+                    </h3>
+                    <div className="flex items-center text-gray-500 text-xs">
+                      <Calendar className="mr-1 h-3 w-3" /> Apr 2020 – Nov 2021
+                    </div>
+                  </div>
+                  <p>
+                    Built{" "}
+                    <Link
+                      href="https://www.piscapisca.pt/"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      PiscaPisca.pt <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    , Portugal's car marketplace. Created a reusable UI library
+                    with Angular.
+                  </p>
+                </div>
+
+                <div className="border-l border-gray-800 pl-4">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
+                    <h3 className="font-medium text-gray-300">
+                      Outsystems Developer — BABEL
+                    </h3>
+                    <div className="flex items-center text-gray-500 text-xs">
+                      <Calendar className="mr-1 h-3 w-3" /> Out 2018 – Jan 2020
+                    </div>
+                  </div>
+                  <p>
+                    Developed public sector web applications using OutSystems,
+                    implementing Agile methodologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Education */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-medium mb-6 flex items-center">
+              <GraduationCap className="mr-2 h-5 w-5 text-gray-400" /> Education
+            </h2>
+
+            <div className="border-l-2 border-gray-800 pl-4">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                <h3 className="text-lg font-medium">
+                  BSc Computer Science — Instituto Superior Técnico
+                </h3>
+                <div className="flex items-center text-gray-400 text-sm">
+                  <Calendar className="mr-1 h-3 w-3" /> 2012 – 2017
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Skills */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-medium mb-6 flex items-center">
+              <Code className="mr-2 h-5 w-5 text-gray-400" /> Skills
+            </h2>
+
+            <div className="space-y-4">
+              <div>
+                <h3 className="text-gray-400 mb-2">Frontend</h3>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "React",
+                    "Next.js",
+                    "Typescript",
+                    "JavaScript",
+                    "Angular",
+                    "Three.js",
+                    "React Three Fiber",
+                    "TailwindCSS",
+                    "Shadcn",
+                    "CSS",
+                    "SCSS",
+                    "Bootstrap",
+                    "HTML",
+                  ].map((skill) => (
+                    <span
+                      key={skill}
+                      className="bg-gray-800 px-3 py-1 rounded-full text-sm"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-gray-400 mb-2">Backend/Tools</h3>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "Cursor",
+                    "V0",
+                    "Vercel",
+                    "OutSystems",
+                    "Node.js",
+                    "Asana",
+                    "Jira",
+                    "Figma",
+                    "Git",
+                    "Firestore",
+                    "Supabase",
+                    "GraphQL",
+                    "Storybook",
+                    "Gitbook",
+                    "npm",
+                  ].map((skill) => (
+                    <span
+                      key={skill}
+                      className="bg-gray-800 px-3 py-1 rounded-full text-sm"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-gray-400 mb-2">Languages</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+                    English (Fluent)
+                  </span>
+                  <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+                    Portuguese (Native)
+                  </span>
+                  <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+                    Spanish (Intermediate)
+                  </span>
+                  <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+                    French (Basic)
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Achievements & Hackathons */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-medium mb-6 flex items-center">
+              <Award className="mr-2 h-5 w-5 text-gray-400" /> Achievements
+            </h2>
+
+            <div className="space-y-4">
+              <div className="border-l-2 border-gray-800 pl-4">
+                <div className="flex items-start gap-2 mb-1">
+                  <span className="text-yellow-500 text-lg">🏅</span>
+                  <div>
+                    <h3 className="font-medium">
+                      1st Prize: Mintbase MetaBuidl Hackathon (2021)
+                    </h3>
+                    <p className="text-gray-400">
+                      Built VR NFT gallery spaces (
+                      <Link
+                        href="https://3xr-minter-challenge.vercel.app/"
+                        className="text-gray-300 hover:text-white inline-flex items-center"
+                        target="_blank"
+                      >
+                        NFT Gallery <ArrowUpRight className="ml-1 h-3 w-3" />
+                      </Link>
+                      )
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-l-2 border-gray-800 pl-4 text-sm text-gray-400">
+                <div className="flex flex-wrap gap-x-6 gap-y-2">
+                  <div>
+                    <span className="text-gray-300">
+                      NEARCON Hackathon (2022)
+                    </span>
+                    : Minsta NFT photo app (
+                    <Link
+                      href="https://devpost.com/software/minsta"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Minsta <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    )
+                  </div>
+                  <div>
+                    <span className="text-gray-300">
+                      Sui Agent Hackathon (2025)
+                    </span>
+                    : SUI Roast Agent (
+                    <Link
+                      href="https://github.com/sainthiago/sui-roast-agent"
+                      className="text-gray-300 hover:text-white inline-flex items-center"
+                      target="_blank"
+                    >
+                      Roast AI Agent <ArrowUpRight className="ml-1 h-3 w-3" />
+                    </Link>
+                    )
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Side Projects */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-medium mb-6 flex items-center">
+              <Sparkles className="mr-2 h-5 w-5 text-gray-400" /> Side Projects
+            </h2>
+
+            <div className="flex flex-wrap gap-x-8 gap-y-3 border-l-2 border-gray-800 pl-4">
+              <div>
+                <h3 className="font-medium">
+                  <Link
+                    href="https://3xr.io"
+                    className="hover:text-gray-300 inline-flex items-center"
+                    target="_blank"
+                  >
+                    3XR <ArrowUpRight className="ml-1 h-3 w-3" />
+                  </Link>
+                </h3>
+                <p className="text-gray-400 text-sm">VR NFT gallery spaces</p>
+              </div>
+
+              <div>
+                <h3 className="font-medium">
+                  <Link
+                    href="https://www.minsta.me/"
+                    className="hover:text-gray-300 inline-flex items-center"
+                    target="_blank"
+                  >
+                    Minsta <ArrowUpRight className="ml-1 h-3 w-3" />
+                  </Link>
+                </h3>
+                <p className="text-gray-400 text-sm">Chain-based photo app</p>
+              </div>
+            </div>
+          </div>
